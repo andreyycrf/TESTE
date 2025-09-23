@@ -1,0 +1,32 @@
+/* teste */
+$cor: blue;
+h1 {
+    color: $cor;
+}
+
+$pcor: red;
+
+p {
+    color: $pcor;
+}
+
+.txt1 {
+    font-size: 1.2rem;
+    color: $cor;
+}
+.txt2 {
+    font-size: 1.1rem;
+    color: cadetblue;
+}
+.txt3 {
+    font-size: 1.6rem;
+    color: red;
+}
+.caixa {
+    ul {
+        li {
+            color: rgb(97, 196, 97);
+        }
+    }
+}
+@import 'secao1';
