@@ -1,0 +1,83 @@
+.menu {
+  background-color: #3498db;
+}
+.menu ul {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu ul li {
+  margin: 0 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color: yellow;
+}
+
+.botao {
+  background-color: #3498db;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: rgb(255, 94, 94);
+}
+
+.cards .card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cards .card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.cards .card {
+  transition: transform 0.3s ease;
+}
+.cards .card:hover {
+  transform: translateY(-5px);
+}
+.card-web {
+  border-radius: 10px;
+  box-shadow: 1 4px 6px rgba(0, 0, 0, 0.15);
+  border-top: 5px solid #3498db;
+  background-color: white;
+  padding: 10px;
+  transition: transform 0.2 ease;
+}
+
+.card-design {
+  border-radius: 10px;
+  box-shadow: 1 4px 6px rgba(0, 0, 0, 0.15);
+  border-top: 5px solid #9b59b6;
+  background-color: white;
+  padding: 10px;
+  transition: transform 0.2 ease;
+}
+
+.card-marketing {
+  border-radius: 10px;
+  box-shadow: 1 4px 6px rgba(0, 0, 0, 0.15);
+  border-top: 5px solid #2ecc71;
+  background-color: white;
+  padding: 10px;
+  transition: transform 0.2 ease;
+}/*# sourceMappingURL=desafio1.css.map */

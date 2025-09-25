@@ -7,4 +7,29 @@ p {
   color: red;
 }
 
+.txt1 {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+.txt2 {
+  font-size: 1.1rem;
+  color: cadetblue;
+}
+
+.txt3 {
+  font-size: 1.6rem;
+  color: red;
+}
+
+.caixa ul li {
+  color: rgb(97, 196, 97);
+}
+
+p {
+  font-size: 1rem;
+  background-color: black;
+  color: 0;
+} 
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+.menu {
+  background-color: #3498db;
+}
+.menu ul {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.menu ul li {
+  margin: 0 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color: yellow;
+}
+
+.botao {
+  background-color: #3498db;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.botao:hover {
+  background-color: rgb(255, 94, 94);
+}
+
+/*# sourceMappingURL=desafio1.css.map */
